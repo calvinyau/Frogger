@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+}
+
+canvas {
+  background-image: url("../assets/road_bg.png");
+  background-size: cover;
+  border: 1px solid orange;
+}
