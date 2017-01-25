@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   context: __dirname,
-  entry: './lib/frogger.jsx',
+  entry: './lib/frogger.js',
   output: {
     path: "./lib",
     filename: 'bundle.js',
