@@ -3,7 +3,7 @@ body {
 }
 
 canvas {
-  background-image: url("../assets/road_bg.png");
+  background-image: url("../assets/bg_with_water.png");
   background-size: cover;
   border: 1px solid orange;
 }
