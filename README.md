@@ -15,6 +15,12 @@ The player can use the keyboard's arrow keys to direct the frog to move up, down
 ![Paused][paused]
 [paused]: ./docs/images/paused.png
 
+### Features
+* [ ] Start, Pause, and Reset the game
+* [ ] Move the frog up, down, left, right
+* [ ] Continuous cars moving across the screen
+* [ ] Instructions describing how to move and what the goal is
+
 ### Technology
 
 * Vanilla JavaScript
@@ -29,6 +35,10 @@ The player can use the keyboard's arrow keys to direct the frog to move up, down
 [animate]: https://github.com/daneden/animate.css
 
 * Heroku site hosting
+
+* Webpack file bundling
+
+* Node packaging
 
 ### Bonus features
 
