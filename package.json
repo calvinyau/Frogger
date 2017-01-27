@@ -6,10 +6,6 @@
   "directories": {
     "doc": "docs"
   },
-  "engines": {
-    "node": "7.2.1",
-    "npm": "4.0.3"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
