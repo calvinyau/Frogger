@@ -5,25 +5,47 @@
     <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" charset="utf-8"></script>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script src="lib/bundle.js" charset="utf-8"></script>
+    <script src="https://use.fontawesome.com/2209ee2656.js"></script>
     <link rel="stylesheet" href="css/application.css">
     <base href="/Frogger/" />
     <title>Frogger</title>
   </head>
   <body>
-    <div class="start-pause-screen">
-      <div class="title-container">
-        <h1 id="title">Frogger</h1>
-        <img src="http://res.cloudinary.com/dsvfpq1b7/image/upload/v1485501353/Frogger/frog_initial.png" alt="frog" class="frog"/>
+    <div class="game-container">
+      <div class="start-pause-screen">
+        <div class="title-container">
+          <h1 id="title" class="animated bounceInDown">Frogger</h1>
+          <img src="http://res.cloudinary.com/dsvfpq1b7/image/upload/v1485501353/Frogger/frog_initial.png" alt="frog" class="frog"/>
+        </div>
+        <div class="directions-container">
+          <span class="directions animated infinite flash">Press Space To Start</span>
+        </div>
+        <div class="instructions-container">
+          <div class="arrows-container">
+            <img src="http://res.cloudinary.com/dsvfpq1b7/image/upload/v1485513458/Frogger/arrowKeys.png" class="arrow-keys"/>
+            <span class="instructions">Use the arrow keys to cross the road and reach the lily pads. Avoid the cars!</span>
+          </div>
+          <div class="r-container">
+            <img src="http://res.cloudinary.com/dsvfpq1b7/image/upload/v1485515365/Frogger/letter_r.png" class="r-key"/>
+            <span class="instructions">Press 'R' to restart the game.</span>
+          </div>
+        </div>
       </div>
-      <div class="directions-container">
-        <span class="directions">Press Space To Start</span>
+      <div class="canvas-container">
+        <canvas id="froggerCanvas" width="450" height="550">
+          Your browser does not support canvas.
+        </canvas>
       </div>
-    </div>
-    <div class="canvas-container">
-      <canvas id="froggerCanvas" width="450" height="550">
-        Your browser does not support canvas.
-      </canvas>
     </div>
   </body>
+  <footer>
+    <a href="https://github.com/calvinyau/Frogger">
+      <i class="fa fa-github fa-3x"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/calvin-yau-982065a8/">
+      <i class="fa fa-linkedin-square fa-3x"></i>
+    </a>
+  </footer>
 </html>

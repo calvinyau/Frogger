@@ -6,48 +6,41 @@ body {
 canvas {
   background-image: url("http://res.cloudinary.com/dsvfpq1b7/image/upload/v1485501355/Frogger/bg_roads.png");
   background-size: cover;
-  border: 2px solid white;
+  border: 2px solid purple;
 }
 
-.canvas-container {
-  position: fixed;
-  top: 20px;
+.game-container {
+  position: relative;
   right: 0;
   left: 0;
-  width: 100%;
-  text-align: center;
 }
 
-.start-pause-screen {
-  position: fixed;
-  top: 22px;
+.canvas-container, .start-pause-screen {
+  position: absolute;
   right: 0;
   left: 0;
   margin: 0 auto;
+  background-color: black;
+}
+
+.canvas-container {
+  text-align: center;
+  top: 20px;
+}
+
+.start-pause-screen {
+  z-index: 5;
   width: 450px;
   height: 550px;
-  z-index: 5;
-  background-color: black;
+  top: 22px;
 }
 
 #title {
   font-family: 'Press Start 2P';
-  color: white;
-  margin-top: 150px;
+  color: blue;
+  margin-top: 50px;
   text-align: center;
   font-size: 40px;
-}
-
-.title-container {
-  /*position: fixed;
-  top: 22px;
-  right: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 450px;
-  height: 550px;
-  z-index: 5;
-  background-color: black;*/
 }
 
 .frog {
@@ -64,4 +57,64 @@ canvas {
 .directions {
   color: white;
   font-size: 20px;
+}
+
+.instructions-container {
+  margin: 40px 20px;
+  text-align: center;
+}
+
+.arrows-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.r-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 60px;
+  margin-top: 30px;
+}
+
+.instructions {
+  color: white;
+}
+
+.arrow-keys {
+  width: 100px;
+  height: 65px;
+}
+
+.r-key {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  position: relative;
+  top: 575px;
+  text-align: center;
+  width: 100%;
+}
+
+.fa-github {
+  color: green;
+  margin-right: 30px;
+}
+
+.fa-linkedin-square {
+  color: green;
+}
+
+.fa-github:hover{
+  color: white;
+}
+
+.fa-linkedin-square:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
