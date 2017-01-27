@@ -29,38 +29,34 @@ and the About modal.  Game controls will include Start and Reset buttons.
 This project will be implemented with the following technologies:
 
 - Vanilla JavaScript and `jquery` for game logic,
-- `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts,
 - React for rendering a modal,
 - Babel for transpiling ES6 to ES5.
 
 In addition to the webpack entry file, there will be three scripts involved in this project:
 
-`board.js`: handle logic for creating and updating the necessary `Easel.js` elements and rendering them to the DOM.
+`game_view.js`: handle logic for rendering animation
 
 `game.js`: take in user input and check if the player has won or lost
 
-`mover.js`: frog and other moving objects logic
+`moving_object.js`: moving objects logic such as cars
 
 
 ### Implementation Timeline
 
-**Day 1**: Setup all necessary Node modules, including getting webpack up and running and `Easel.js` installed.  Create `webpack.config.js` as well as `package.json`.  Create starting entry file and scripts.  Figure out how to create something using `Easel.js`.
+**Day 1**: Setup all necessary Node modules, including getting webpack up and running.  Create `webpack.config.js` as well as `package.json`.  Create starting entry file and scripts.  Figure out how to create something.
 
 - Get a green bundle with `webpack`
-- Learn enough `Easel.js` to render an object to the `Canvas` element
+- Render an object to the `Canvas` element
 
-**Day 2**: Continue learning how to use `Easel.js`, more in depth. Create a mover with `mover.js` and place it on a board in `board.js`.
-
-- Complete the `mover.js` module (constructor, update functions)
-- Render a square grid to the `Canvas` using `Easel.js`
+**Day 2**: Continue learning how to use Canvas. Create a frog, place on canvas, and make it move.
 
 **Day 3**: Create logic and rendering for moving objects on the board.
 
 - Make objects movable
 
 
-**Day 4**: Install the user interaction controls.  Make the frontend look nice.
+**Day 4**: Add in extra user interaction controls like pausing game.  Make the frontend look nice.
 
 - Allow up, down, left, right with keyboard arrow keys
 - Create a splash page
