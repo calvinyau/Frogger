@@ -35,6 +35,10 @@ canvas {
   top: 22px;
 }
 
+.title-container {
+  text-align: center;
+}
+
 #title {
   font-family: 'Press Start 2P';
   color: blue;
@@ -43,11 +47,16 @@ canvas {
   font-size: 40px;
 }
 
+#show-score {
+  color: white;
+  font-size: 22px;
+}
+
 .frog {
   width: 50px;
   height: 40px;
   display: block;
-  margin: 70px auto;
+  margin: 50px auto;
 }
 
 .directions-container {
