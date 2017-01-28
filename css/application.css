@@ -4,7 +4,7 @@ body {
 }
 
 canvas {
-  background-image: url("http://res.cloudinary.com/dsvfpq1b7/image/upload/v1485501355/Frogger/bg_roads.png");
+  background-image: url("http://res.cloudinary.com/dsvfpq1b7/image/upload/v1485602088/Frogger/bg_with_water.png");
   background-size: cover;
   border: 2px solid purple;
 }
