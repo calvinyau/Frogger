@@ -1,6 +1,6 @@
 # Frogger
 
-[live]: http://frogger-js.herokuapp.com/
+[live]: http://frogger-js.win
 
 [Frogger][live] is a fast paced arcade game where a player directs a frog across the screen, dodging cars along the way. This game is implemented using JavaScript and jQuery.
 
